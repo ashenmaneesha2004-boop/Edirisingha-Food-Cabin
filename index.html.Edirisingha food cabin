@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edirisingha Food Cabin</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#fff8ef;
+color:#333;
+}
+
+.hero{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url("https://images.unsplash.com/photo-1513104890138-7c749659a591");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:#fff;
+padding:20px;
+}
+
+.hero h1{
+font-size:55px;
+font-weight:700;
+}
+
+.hero p{
+margin-top:15px;
+font-size:20px;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:15px 35px;
+background:#ff7a00;
+color:#fff;
+text-decoration:none;
+border-radius:40px;
+font-weight:bold;
+}
+
+nav{
+background:#5a2d0c;
+padding:18px;
+position:sticky;
+top:0;
+z-index:999;
+text-align:center;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+margin:0 15px;
+font-weight:600;
+}
+
+section{
+padding:60px 20px;
+max-width:1000px;
+margin:auto;
+}
+
+.title{
+text-align:center;
+font-size:35px;
+color:#d35400;
+margin-bottom:30px;
+}
+
+.card{
+background:#fff;
+padding:20px;
+border-radius:20px;
+box-shadow:0 10px 20px rgba(0,0,0,.1);
+margin-bottom:25px;
+text-align:center;
+}
+
+.card img{
+width:100%;
+height:260px;
+object-fit:cover;
+border-radius:15px;
+}
+
+.price{
+font-size:25px;
+font-weight:bold;
+color:#ff5b00;
+margin-top:10px;
+}
+
+.location,
+.order{
+display:block;
+padding:16px;
+margin-top:15px;
+border-radius:12px;
+color:#fff;
+text-decoration:none;
+font-size:18px;
+font-weight:bold;
+}
+
+.location{
+background:#6b3d15;
+}
+
+.order{
+background:#25D366;
+}
+
+footer{
+background:#5a2d0c;
+color:#fff;
+text-align:center;
+padding:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+<div>
+<h1>🍕 Edirisingha Food Cabin</h1>
+<p>Fresh Taste • Best Hopper & Pizza</p>
+
+<a href="#menu" class="btn">
+Order Now
+</a>
+
+</div>
+</div><nav>
+<a href="#about">About</a>
+<a href="#menu">Our Menu</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+
+<h2 class="title">About Us</h2>
+
+<div class="card">
+
+<p>
+
+Welcome to <b>Edirisingha Food Cabin</b>.
+
+We serve delicious Pizza, Egg Hoppers and Sri Lankan food made fresh every day.
+
+📍 Udagaladeniya - Medagaladeniya, Rambukkana.
+
+</p>
+
+</div>
+
+</section>
+
+
+<section id="menu">
+
+<h2 class="title">🍽 Our Menu</h2>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1513104890138-7c749659a591">
+
+<h2>🍕 Special Pizza</h2>
+
+<p>Loaded with cheese & delicious toppings.</p>
+
+</div>
+
+<div class="card">
+
+<img src="egg1.jpg">
+
+<h2>🍳 Egg Hopper</h2>
+
+<p class="price">Rs.100</p>
+
+</div>
+
+<div class="card">
+
+<img src="egg2.jpg">
+
+<h2>🍳 Egg Hopper Special</h2>
+
+<p class="price">Rs.100</p>
+
+</div>
+
+<div class="card">
+
+<img src="hopper.jpg">
+
+<h2>🥥 Plain Hopper</h2>
+
+<p class="price">Rs.25</p>
+
+</div></section>
+
+<section id="contact">
+
+<h2 class="title">📍 Contact Us</h2>
+
+<div class="card">
+
+<a class="location"
+href="https://maps.app.goo.gl/i7ktTfMbcrncB5t4A"
+target="_blank">
+
+📍 Open Google Maps
+
+</a>
+
+<a class="order"
+href="https://wa.me/94717574178"
+target="_blank">
+
+🟢 Order on WhatsApp
+
+</a>
+
+<a class="order"
+style="background:#ff6b00;"
+href="tel:+94717574178">
+
+📞 Call Now - 071 757 4178
+
+</a>
+
+</div>
+
+</section><footer>
+
+<h2>Edirisingha Food Cabin</h2>
+
+<p>
+Fresh Taste • Best Quality • Fast Service
+</p>
+
+<p>
+
+📍 Udagaladeniya, Medagaladeniya, Rambukkana
+
+</p>
+
+<p>
+
+📞 071 757 4178
+
+</p>
+
+<p>
+
+© 2026 Edirisingha Food Cabin. All Rights Reserved.
+
+</p>
+
+</footer>
+
+</body>
+
+</html>
